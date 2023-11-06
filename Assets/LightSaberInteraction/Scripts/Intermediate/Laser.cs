@@ -13,6 +13,7 @@ namespace LightSaber.intermediate
         private XRGrabInteractable interactable;
         private AudioSource audioSource;
 
+
         private void Awake()
         {
             interactable = GetComponent<XRGrabInteractable>();
